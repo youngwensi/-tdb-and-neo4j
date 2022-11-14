@@ -43,3 +43,9 @@ OWL规则推理器：OWL/full 的 OWL/lite 子集的基于规则的实现。OWL 
 混合执行即同时结合正向链接和反向链接。
 举个例子：
  
+```mermaid
+flowchart TD;
+     A-->B;
+     A-->C;
+     B-->D;
+     C-->D;
